@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="02" author="saikumar">
+        <comment>Inserting titles</comment>
+        <insert tableName="publisher">
+            <column name="pubid" value="0736"/>
+            <column name="pubname" value="New Moon Book"/>
+            <column name="city" value="boston"/>
+            <column name="state" value="MA"/>
+            <column name="country" value="USA"/>
+        </insert>
+        <insert tableName="publisher">
+            <column name="pubid" value="1389"/>
+            <column name="pubname" value="Algodata Infosystems"/>
+            <column name="city" value="Berkeley"/>
+            <column name="state" value="CA"/>
+            <column name="country" value="USA"/>
+        </insert>
+        <insert tableName="publisher">
+            <column name="pubid" value="0877"/>
+            <column name="pubname" value="Binney Hardely"/>
+            <column name="city" value="Washington"/>
+            <column name="state" value="DC"/>
+            <column name="country" value="USA"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

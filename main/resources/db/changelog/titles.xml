@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="01" author="saikumar">
+        <comment>Inserting titles</comment>
+        <insert tableName="titles">
+            <column name="titleid" value="BU1032"/>
+            <column name="title" value="The Busy Executive's Database Guide"/>
+            <column name="type" value=" business   "/>
+            <column name="pubid" value="0877"/>
+            <column name="price" value="19.99"/>
+            <column name="royalty" value="20"/>
+            <column name="ytdsales" value="4095"/>
+            <column name="notes"
+                    value="An overview of available database systems with emphasis on common business applications. Illustrated."/>
+            <column name="pubdate" value="1991-06-12 00:00:00.000"/>
+            <column name="advance" value="5000.00"/>
+        </insert>
+        <insert tableName="titles">
+            <column name="titleid" value="BU1111"/>
+            <column name="title" value="Cooking with Computers: Surreptitious Balance Sheets"/>
+            <column name="type" value=" business   "/>
+            <column name="pubid" value="1389"/>
+            <column name="price" value="19.99"/>
+            <column name="royalty" value="20"/>
+            <column name="ytdsales" value="3876"/>
+            <column name="notes" value="Helpful hints on how to use your electronic resources to the best advantage."/>
+            <column name="pubdate" value="1991-06-09 00:00:00.000"/>
+            <column name="advance" value="5000.00"/>
+        </insert>
+        <insert tableName="titles">
+            <column name="titleid" value="BU2075"/>
+            <column name="title" value="You Can Combat Computer Stress!"/>
+            <column name="type" value=" business   "/>
+            <column name="pubid" value="0736"/>
+            <column name="price" value="2.99"/>
+            <column name="royalty" value="24"/>
+            <column name="ytdsales" value="18722"/>
+            <column name="notes"
+                    value="The latest medical and psychological techniques for living with the electronic office. Easy-to-understand explanations."/>
+            <column name="pubdate" value="1991-06-30 00:00:00.000"/>
+            <column name="advance" value="10125.00"/>
+        </insert>
+        <insert tableName="titles">
+            <column name="titleid" value="BU7832"/>
+            <column name="title" value="Straight Talk About Computers"/>
+            <column name="type" value=" business   "/>
+            <column name="pubid" value="1389"/>
+            <column name="price" value="19.99"/>
+            <column name="royalty" value="20"/>
+            <column name="ytdsales" value="4095"/>
+            <column name="notes"
+                    value="Annotated analysis of what computers can do for you: a no-hype guide for the critical user."/>
+            <column name="pubdate" value="1991-06-22 00:00:00.000"/>
+            <column name="advance" value="5000.00"/>
+        </insert>
+        <insert tableName="titles">
+            <column name="titleid" value="MC2222"/>
+            <column name="title" value="Silicon Valley Gastronomic Treats"/>
+            <column name="type" value=" mod_cook "/>
+            <column name="pubid" value="0877"/>
+            <column name="price" value="19.99"/>
+            <column name="royalty" value="12"/>
+            <column name="ytdsales" value="2032"/>
+            <column name="notes" value="Favorite recipes for quick, easy, and elegant meals."/>
+            <column name="pubdate" value="1991-06-09 00:00:00.000"/>
+            <column name="advance" value="2345.90"/>
+        </insert>
+        <insert tableName="titles">
+            <column name="titleid" value="MC3021"/>
+            <column name="title" value="The Gourmet Microwave"/>
+            <column name="type" value=" mod_cook "/>
+            <column name="pubid" value="0877"/>
+            <column name="price" value="2.99"/>
+            <column name="royalty" value="24"/>
+            <column name="ytdsales" value="22246"/>
+            <column name="notes" value="Traditional French gourmet recipes adapted for modern microwave cooking."/>
+            <column name="pubdate" value="1991-06-18 00:00:00.000"/>
+            <column name="advance" value="15000.00"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
